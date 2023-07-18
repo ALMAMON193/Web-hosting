@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-hosting-webside</title>
+    <!-- boostrap link-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<style>
+    .overlay-image {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+        background-position: center;
+        background-size: cover;
+
+
+
+    }
+
+    .card-title {
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+
+
+    .testimotionals {
+        width: 350px;
+        display: inline-block;
+
+
+    }
+
+
+    .testimotionals .card {
+
+        position: relative;
+        overflow: hidden;
+        width: 250px;
+        margin: 0;
+        background: #f0e8e8;
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, .5)
+    }
+
+    .testimotionals .card .layer {
+        z-index: 1;
+        position: absolute;
+        top: calc(100% - 2px);
+        height: 100%;
+        width: 100%;
+        left: 0;
+        background: linear-gradient(to left, rgb(0, 165, 93), rgb(71, 132, 255));
+        transition: 0.5s;
+
+    }
+
+    .testimotionals .card .content {
+        z-index: 2;
+        position: relative;
+    }
+
+    .testimotionals .card:hover .layer {
+        top: 0;
+    }
+
+    .testimotionals .card .content p {
+        font-size: 17px;
+        line-height: 24px;
+
+
+    }
+</style>
+
+<body>
+    <!--navbar start-->
+    <div class="navbar navbar-expand-sm shadow">
+        <div class="container-fluid " style="font-size: 20px; font-weight:500;">
+            <a class="navbar-brand" href="index.html" style="margin-left: 100px;">LOGO</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main_menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item px-2"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item px-2"><a class="nav-link" href="pricing.html">Priching</a></li>
+                    <li class="nav-item px-3"><a class="nav-link" href="service.html">Service</a></li>
+                    <li class="nav-item px-3"><a class="nav-link" href="contract.html">Contract</a></li>
+                </ul>
+            </div>
+            <a class="navbar-brand px-3" href="#"> + 880 1768085656</a>
+        </div>
+    </div>
+
+    <!--navbar end-->
+
+    <!--carousel start-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 38rem ;color:wheat relative;">
+                <div class="overlay-image" style="background-color:#020230">
+                </div>
+                <div class="container" style=" position: absolute;bottom: 0;right: 0; margin-left: 30px;">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 me-auto" style="margin-top: 210px;color: azure;">
+                            <h1 style="font-weight: bold;">Fast & Secure
+                                <br>
+                                Wrb Hosting
+                            </h1>
+                            <p>With Bluehost Shared Hosting you get all the features, tools, and guidance you need to
+                                build and launch truly impressive WordPress websites.</p>
+                            <button type="button" class="btn btn-lg btn-primary ps-5 pe-5"
+                                style="font-family: 'Times New Roman', Times, serif;">Learn More</button>
+                            <button type="button" class="btn btn-lg btn-danger ms-2 ps-5 pe-5"
+                                style="font-family: 'Times New Roman', Times, serif;">Contract Us</button>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <img src="img/slider-img.png" alt="" style="height: 90%;" class="w-100 pe-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active" style="height: 38rem ;color:wheat relative;">
+                <div class="overlay-image" style="background-color:#020230">
+                </div>
+                <div class="container" style=" position: absolute;bottom: 0;right: 0; margin-left: 30px;">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 me-auto" style="margin-top: 210px;color: azure;">
+                            <h1 style="font-weight: bold;">Fast & Secure
+                                <br>
+                                Wrb Hosting
+                            </h1>
+                            <p>With Bluehost Shared Hosting you get all the features, tools, and guidance you need to
+                                build and launch truly impressive WordPress websites.</p>
+                            <button type="button" class="btn btn-lg btn-primary ps-5 pe-5"
+                                style="font-family: 'Times New Roman', Times, serif;">Learn More</button>
+                            <button type="button" class="btn btn-lg btn-danger ms-2 ps-5 pe-5"
+                                style="font-family: 'Times New Roman', Times, serif;">Contract Us</button>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <img src="img/slider-img.png" alt="" style="height: 90%;" class="w-100 pe-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active" style="height: 38rem ;color:wheat relative;">
+                <div class="overlay-image" style="background-color:#020230">
+                </div>
+                <div class="container" style=" position: absolute;bottom: 0;right: 0; margin-left: 30px;">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 me-auto" style="margin-top: 210px;color: azure;">
+                            <h1 style="font-weight: bold;">Fast & Secure
+                                <br>
+                                Wrb Hosting
+                            </h1>
+                            <p>With Bluehost Shared Hosting you get all the features, tools, and guidance you need to
+                                build and launch truly impressive WordPress websites.</p>
+                            <button type="button" class="btn btn-lg btn-primary ps-5 pe-5"
+                                style="font-family: 'Times New Roman', Times, serif;">Learn More</button>
+                            <button type="button" class="btn btn-lg btn-danger ms-2 ps-5 pe-5"
+                                style="font-family: 'Times New Roman', Times, serif;">Contract Us</button>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <img src="img/slider-img.png" alt="" style="height: 90%;" class="w-100 pe-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <button type="button" class="carousel-control-prev" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button type="button" class="carousel-control-next" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+
+
+
+    <!--carousel end-->
+
+    <!--service start -->
+    <h1 class="text-center mt-5 mb-5">Our Services</h1>
+    <hr>
+
+    <div class="container mt-5">
+        <div class="row g-3 text-center">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow  pt-5 pb-3">
+
+                    <img src="img/client.jpg" style="height: 100px;width: 100px;" alt="..."
+                        class="rounded-circle mx-auto d-block">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Hosting</h5>
+                        <p class="card-text">Generators on the Internet tend to repeat predefined chunks as necessary
+                        </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card shadow pt-5 pb-3">
+
+                    <img src="img/client.jpg" style="height: 100px;width: 100px;" alt="..."
+                        class="rounded-circle mx-auto d-block">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Hosting</h5>
+                        <p class="card-text">Generators on the Internet tend to repeat predefined chunks as necessary
+                        </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow pt-5 pb-3">
+
+                    <img src="img/client.jpg" style="height: 100px;width: 100px;" alt="..."
+                        class="rounded-circle mx-auto d-block">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Hosting</h5>
+                        <p class="card-text">Generators on the Internet tend to repeat predefined chunks as necessary
+                        </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card shadow  pt-5 pb-3">
+                    <img src="img/client.jpg" style="height: 100px;width: 100px;" alt="..."
+                        class="rounded-circle mx-auto d-block">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Hosting</h5>
+                        <p class="card-text">Generators on the Internet tend to repeat predefined chunks as necessary
+                        </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card shadow pt-5 pb-3 ">
+
+                    <img src="img/client.jpg" style="height: 100px;width: 100px;" alt="..."
+                        class="rounded-circle mx-auto d-block">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Hosting</h5>
+                        <p class="card-text">Generators on the Internet tend to repeat predefined chunks as necessary
+                        </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+                <br>
+                <div class="card shadow pt-5 pb-3">
+                    <img src="img/client.jpg" style="height: 100px;width: 100px;" alt="..."
+                        class="rounded-circle mx-auto d-block">
+                    <div class="card-body">
+                        <h5 class="card-title">Free Hosting</h5>
+                        <p class="card-text">Generators on the Internet tend to repeat predefined chunks as necessary
+                        </p>
+                        <a href="#" class="btn btn-primary">Read more</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--service end -->
+
+    <!--About Us start -->
+
+    <div class="container" style="margin-top: 120px;">
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-6 p-5 " style="margin-top: 80px;">
+                <h1 style="font-weight: bold;">About us</h1>
+                <p style="color: #817e7e;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio dicta,
+                    vero nemo placeat quidem
+                    temporibus.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 ">
+                <img src="img/about-img.png" alt="Not Found" style="height:100%;width: 90%;">
+            </div>
+        </div>
+    </div>
+    <!--About Us end -->
+    <hr class="mt-5">
+
+    <!--priching start-->
+    <h1 class="text-center mt-4" style="font-weight: bold;">Priching</h1>
+
+    <div class="container mt-5 ps-5">
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-2"></div>
+
+            <div class="col-12 col-sm-6 col-lg-3 ">
+                <div class="testimotionals ">
+                    <div class="card ">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <div class="details">
+                                <h1 class="card-title">$49</h1>
+                                <p style="font-weight: bold;">STARTUP</p>
+                                <p>20GB SSD Cloud Stroage</p>
+                                <p>Weekley Backup</p>
+                                <p>DDoS Protection</p>
+                                <p>Full Rote Access</p>
+                                <p></p>
+                                <p>24/7/365 All time support</p>
+
+                            </div>
+                            <a href="#" class="btn btn-danger ps-4 pe-4">See Deatils</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 ">
+                <div class="testimotionals">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <div class="details">
+                                <h1 class="card-title">$49</h1>
+                                <p style="font-weight: bold;">STARTUP</p>
+                                <p>20GB SSD Cloud Stroage</p>
+                                <p>Weekley Backup</p>
+                                <p>DDoS Protection</p>
+                                <p>Full Rote Access</p>
+                                <p></p>
+                                <p>24/7/365 All time support</p>
+                            </div>
+                            <a href="#" class="btn btn-danger ps-4 pe-4">See Details</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 ms-auto">
+                <div class="testimotionals">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <div class="details">
+                                <h1 class="card-title">$49</h1>
+                                <p style="font-weight: bold;">STARTUP</p>
+                                <p>20GB SSD Cloud Stroage</p>
+                                <p>Weekley Backup</p>
+                                <p>DDoS Protection</p>
+                                <p>Full Rote Access</p>
+                                <p></p>
+                                <p>24/7/365 All time support</p>
+                            </div>
+                            <a href="#" class="btn btn-danger ps-4 pe-4">See Details</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+    </div>
+
+    <!--priching end-->
+
+    <!--Testimonial start-->
+    <h1 class="text-center mt-5" style="font-weight: bold; font-family: 'Roboto Slab', serif;">Testimonial</h1>
+    <p class="text-center">Even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to </p>
+    <!--Testimonial END-->
+    <br><br><br><br>
+
+    <!--slider start-->
+
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
+
+                    <div class="card p-3" style="width: 65rem; height: 250px;">
+                        <h2 style="font-weight: bold;">AL Mamon</h2>
+                        <h3 style="color: red;">Customer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod impedit veritatis, ex illum
+                            nihil ducimus magnam? Vel officiis nobis, blanditiis quasi fugiat natus aperiam, aut odio
+                            odit eius molestias? Odio!
+
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex   justify-content-around">
+                    <div class="card p-3  " style="width: 65rem; height: 250px;">
+
+                        <div class="card-body">
+                            <h2 style="font-weight: bold;">AL Mamon</h2>
+                            <h3 style="color: red;">Customer</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod impedit veritatis, ex
+                                illum nihil ducimus magnam? Vel officiis nobis, blanditiis quasi fugiat natus aperiam,
+                                aut odio odit eius molestias? Odio!
+
+                            </p>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex  justify-content-around">
+                    <div class="card p-3 " style="width: 65rem; height: 250px;">
+                        <h2 style="font-weight: bold;">AL Mamon</h2>
+                        <h3 style="color: red;">Customer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod impedit veritatis, ex illum
+                            nihil ducimus magnam? Vel officiis nobis, blanditiis quasi fugiat natus aperiam, aut odio
+                            odit eius molestias? Odio!
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--end slider-->
+
+
+
+        <!--contract from start-->
+        <div class="container  mt-5">
+            <h1 class="text-center pt-5" style="font-weight: bold; font-family: 'Roboto Slab', serif;">Get In Touch </h1>
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-4"></div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <form action="#">
+                        <form>
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter Name">
+                            </div>
+                            <br>
+                            <div class="form-group">
+
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <input type="phone" class="form-control" name="" id="" placeholder="Phone">
+                            </div>
+                            <br>
+                            <div class="form-group">
+
+                                <textarea class="form-control" name="textarea" id="" cols="44" rows="2" placeholder="Message"></textarea>
+                            </div>
+                            <br>
+                            <button type="submit" class="btn btn-lg btn-danger">Submit</button>
+                        </form>
+                    </form>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4"></div>
+            </div>
+
+        </div>
+        <!--contract from End-->
+
+<br><br>
+        <!--foooter start-->
+        <div style="background-color: #020230; color: #f0e8e8; font-family: 'Roboto Slab', serif; height: 400px;" class="container-fluid ps-5 pt-5">
+            <div class="row g-3">
+                <div class="col-1"></div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <h3>Address</h3>
+                    <p>Location</p>
+                    <p>Call</p>
+                    <p>Email</p>
+                    
+                   
+                </div>
+                <div class="col-12 col-md-6 col-lg-2 ps-5">
+                    <h3>Link</h3>
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Service</p>
+                    <p>Pricing</p>
+                    <p>Contract Us</p>
+                  
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 pe-4">
+                    <h1>Info</h1>
+                    <p>necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3>Subscribe</h3>
+                    <br>
+                    <form action="">
+                        <input type="email" name="" width="100%" id="" plce>
+                       
+                    </form>
+                    <br>
+                    <button type="button" class="btn btn-outline-danger" style="width: 120px;"> Subscribe</button>
+                </div>
+                <div class="col-1"></div>
+            </div>
+            <hr>
+            <i class="fa fa-copy" aria-hidden="true">@ Al Mamon 2023</i>
+        </div>
+        <!--Footer end-->
+        <!--js link-->
+        <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
